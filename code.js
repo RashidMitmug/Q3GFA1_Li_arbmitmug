@@ -23,7 +23,7 @@ var age = prompt("Birth Year: ");
 
 age = 2024 - age;
 
-document.getElementById("outputf").innerHTML="Hello "+firstname+" "+lastname+"! How does it feel to be "+age+" years old?";
+document.getElementById("output").innerHTML="Hello "+firstname+" "+lastname+"! How does it feel to be "+age+" years old?";
 
 function myFunction(){
     if(confirm("Do you consent sharing your personal information with the site?")){
